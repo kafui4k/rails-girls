@@ -15,6 +15,9 @@ gem "sqlite3", "~> 1.4"
 # upload files in Rails
 gem "carrierwave"
 
+# imageMAgick - to create image thumbnails
+gem  "mini_magick"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
