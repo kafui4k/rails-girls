@@ -36,6 +36,9 @@ gem "jbuilder"
 # using Devise
 gem "devise"
 
+# using gravatar
+gem "gravtastic"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
