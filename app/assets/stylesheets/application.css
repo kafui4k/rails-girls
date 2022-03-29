@@ -13,7 +13,27 @@
  *= require_tree .
  *= require_self
  */
- footer { margin-top: 100px; }
+.container a:hover {
+   color: #f55e55;
+   text-decoration: none;
+   background-color: rgba(255, 255, 255, 0);
+ }
+
+.container input[type="submit"] {
+  height: 30px;
+  font-size: 13px;
+  background-color: #f55e55;
+  border: none;
+  color: #fff;
+}
+
+ footer {
+   text-align: center;
+   background-color: #ebebeb;
+   padding: 30px 0;
+   margin-top: 100px;
+   position: relative;
+  }
  table, td, th { vertical-align: middle; border: none; }
  th { border-bottom: 1px solid #DDD; }
  body { margin: 0; }
@@ -21,4 +41,16 @@
  .gravatar {
    height: 30px;
    width: auto;
+ }
+
+ .navbar {
+   min-height: 38px;
+   background-color: #f55e55;
+ }
+
+ .navbar a.navbar-brand { font-size: 18px; }
+ .navbar a.navbar-brand:hover {
+   color: #fff;
+   background-color: transparent;
+   text-decoration: none;
  }
